@@ -5,4 +5,5 @@ node_modules/
 
 /vendor/
 /phpunit.xml
+/build/logs/clover.xml
 /build/logs/coverage.xml
