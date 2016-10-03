@@ -6,6 +6,8 @@ function use_a_wordpress_function() {
     return count( $posts );
 }
 
+/*
 function sumOfInts( int ...$ints ) {
     return array_sum( $ints );
 }
+*/

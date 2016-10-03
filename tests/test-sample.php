@@ -39,7 +39,4 @@ class SampleTest extends WP_UnitTestCase {
 
     }
 
-    function test_sample4() {
-        $this->assertEquals( 9, sumOfInts( 2, '3', 4.1 ) );
-    }
 }
