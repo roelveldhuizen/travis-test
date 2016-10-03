@@ -28,4 +28,14 @@ class SampleTest extends WP_UnitTestCase {
         $this->assertEquals( $str, 0 );
 
     }
+
+    function test_sample3() {
+        //tes
+        $id = wp_insert_post( [
+            'post_title' => 'Test'
+        ] );
+
+        $this->assertTrue( ( $id === false ) ? false : true );
+
+    }
 }
