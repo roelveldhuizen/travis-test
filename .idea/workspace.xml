@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0df6d626-1b5a-43ce-a204-8c2376c02991" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SomeFile.php" afterPath="$PROJECT_DIR$/src/SomeFile.php" />
     </list>
     <ignored path="travis-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".codeclimate.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.codeclimate.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,6 +67,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SomeFile.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SomeFile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="coverage.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/logs/coverage.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
@@ -142,7 +142,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/travis-test.php" />
-        <option value="$PROJECT_DIR$/src/SomeFile.php" />
         <option value="$PROJECT_DIR$/tests/test-sample.php" />
         <option value="$PROJECT_DIR$/.codeclimate.yml" />
         <option value="$PROJECT_DIR$/composer.json" />
@@ -152,6 +151,7 @@
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/SomeFile.php" />
       </list>
     </option>
   </component>
@@ -207,6 +207,20 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="travis-test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="travis-test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -337,7 +351,7 @@
       <updated>1475516290148</updated>
       <workItem from="1475516291227" duration="5634000" />
       <workItem from="1475522023069" duration="1707000" />
-      <workItem from="1475524295812" duration="2285000" />
+      <workItem from="1475524295812" duration="2585000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:roelveldhuizen/travis-test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;readme.md&#10;">
       <created>1475524304277</created>
@@ -381,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475526107595</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="badges">
+      <created>1475526587943</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1475526587943</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -414,7 +435,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9626000" />
+    <option name="totallyTimeSpent" value="9926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="48" width="3710" height="2112" extended-state="6" />
@@ -457,7 +478,8 @@
     <MESSAGE value="Merge branch 'master' of github.com:roelveldhuizen/travis-test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;readme.md&#10;" />
     <MESSAGE value="added codeclimate" />
     <MESSAGE value="Changed clover naming" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed clover naming" />
+    <MESSAGE value="badges" />
+    <option name="LAST_COMMIT_MESSAGE" value="badges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -656,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SomeFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test-sample.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -770,6 +784,14 @@
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SomeFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
