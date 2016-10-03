@@ -21,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test-sample.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test-sample.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test-sample.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="828">
@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.txt">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2376">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="36">
+              <caret line="1" column="135" selection-start-line="1" selection-start-column="135" selection-end-line="1" selection-end-column="135" />
               <folding />
             </state>
           </provider>
@@ -88,6 +88,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/SomeFile.php" />
         <option value="$PROJECT_DIR$/tests/test-sample.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -266,12 +267,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475516290148</updated>
-      <workItem from="1475516291227" duration="746000" />
+      <workItem from="1475516291227" duration="1089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="746000" />
+    <option name="totallyTimeSpent" value="1089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="48" width="3710" height="2112" extended-state="6" />
@@ -338,14 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2376">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SomeFile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -358,6 +351,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="135" selection-start-line="1" selection-start-column="135" selection-end-line="1" selection-end-column="135" />
           <folding />
         </state>
       </provider>

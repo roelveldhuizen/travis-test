@@ -1,3 +1,5 @@
+
+[![Build Status](https://travis-ci.org/roelveldhuizen/travis-test.svg?branch=master)](https://travis-ci.org/roelveldhuizen/travis-test)
 === Travis Test ===
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link: http://example.com/
