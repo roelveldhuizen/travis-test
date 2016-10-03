@@ -38,4 +38,8 @@ class SampleTest extends WP_UnitTestCase {
         $this->assertTrue( ( $id === false ) ? false : true );
 
     }
+
+    function test_sample4() {
+        $this->assertEquals( 9, sumOfInts( 2, '3', 4.1 ) );
+    }
 }
