@@ -23,6 +23,9 @@ class SampleTest extends WP_UnitTestCase {
      */
     function test_sample2() {
         // Replace this with some actual testing code.
-        $this->assertTrue( true );
+
+        $str = use_a_wordpress_function();
+        $this->assertEquals( $str, 'Sample Page' );
+
     }
 }
