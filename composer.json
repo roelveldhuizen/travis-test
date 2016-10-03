@@ -1,0 +1,13 @@
+{
+    "name": "root/travis-test",
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "roelveldhuizen",
+            "email": "roel@inesta.nl"
+        }
+    ],
+    "require": {}
+}
