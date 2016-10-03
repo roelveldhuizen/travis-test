@@ -11,3 +11,5 @@
  *
  * @package         Travis_Test
  */
+
+include_once 'src/SomeFile.php';

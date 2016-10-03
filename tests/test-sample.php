@@ -25,7 +25,18 @@ class SampleTest extends WP_UnitTestCase {
         // Replace this with some actual testing code.
 
         $str = use_a_wordpress_function();
-        $this->assertEquals( $str, 'Sample Page' );
+        $this->assertEquals( $str, 0 );
 
     }
+
+    function test_sample3() {
+        //tes
+        $id = wp_insert_post( [
+            'post_title' => 'Test'
+        ] );
+
+        $this->assertTrue( ( $id === false ) ? false : true );
+
+    }
+
 }
