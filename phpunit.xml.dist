@@ -1,6 +1,7 @@
 <phpunit
         bootstrap="tests/bootstrap.php"
         backupGlobals="false"
+        codecoverage="true"
         colors="true"
         convertErrorsToExceptions="true"
         convertNoticesToExceptions="true"
@@ -11,10 +12,14 @@
             <directory prefix="test-" suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
-	lkb
+
     <filter>
-        <whitelist>
+        <whitelist addUncoveredFilesFromWhitelist="true">
             <directory>src</directory>
         </whitelist>
     </filter>
+
+    <logging>
+        <log type="coverage-clover" target="./build/logs/coverage.xml"/>
+    </logging>
 </phpunit>

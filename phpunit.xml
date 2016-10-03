@@ -1,11 +1,12 @@
 <phpunit
-	bootstrap="tests/bootstrap.php"
-	backupGlobals="false"
-	colors="true"
-	convertErrorsToExceptions="true"
-	convertNoticesToExceptions="true"
-	convertWarningsToExceptions="true"
-	>
+		bootstrap="tests/bootstrap.php"
+		backupGlobals="false"
+		codecoverage="true"
+		colors="true"
+		convertErrorsToExceptions="true"
+		convertNoticesToExceptions="true"
+		convertWarningsToExceptions="true"
+>
 	<testsuites>
 		<testsuite>
 			<directory prefix="test-" suffix=".php">./tests/</directory>
@@ -13,8 +14,12 @@
 	</testsuites>
 
 	<filter>
-		<whitelist>
+		<whitelist addUncoveredFilesFromWhitelist="true">
 			<directory>src</directory>
 		</whitelist>
 	</filter>
+
+	<logging>
+		<log type="coverage-clover" target="./build/logs/coverage.xml"/>
+	</logging>
 </phpunit>

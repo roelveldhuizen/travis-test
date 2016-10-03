@@ -5,3 +5,4 @@ node_modules/
 
 /vendor/
 /phpunit.xml
+/build/logs/coverage.xml
