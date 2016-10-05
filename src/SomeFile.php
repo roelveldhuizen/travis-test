@@ -32,7 +32,7 @@ function some_untested_function() {
     for ( $i = 0; $i < 100; $i ++ ) {
         $i ++;
     }
-
+    return null;
 }
 
 
