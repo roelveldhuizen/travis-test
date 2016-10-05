@@ -6,18 +6,25 @@ function use_a_wordpress_function() {
     return count( $posts );
 }
 
-function some_ugly_function(){
+function some_ugly_function() {
     $_SESSION['start'] = 'Yes';
 
     return 0;
 }
 
-function use_global(){
+function use_global() {
     global $user;
 
-    if(isset($user)){
+    if ( isset( $user ) ) {
         return true;
     }
+}
+
+
+function unused_variable() {
+    $i = 100;
+
+    return 0;
 }
 
 function some_untested_function() {
