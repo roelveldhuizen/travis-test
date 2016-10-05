@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0df6d626-1b5a-43ce-a204-8c2376c02991" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/travis-test.iml" afterPath="$PROJECT_DIR$/.idea/travis-test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SomeFile.php" afterPath="$PROJECT_DIR$/src/SomeFile.php" />
     </list>
@@ -31,8 +30,8 @@
       <file leaf-file-name="SomeFile.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SomeFile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="936">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -213,7 +212,7 @@
       <workItem from="1475524295812" duration="3479000" />
       <workItem from="1475609419844" duration="135000" />
       <workItem from="1475659228228" duration="49000" />
-      <workItem from="1475662725727" duration="194000" />
+      <workItem from="1475662725727" duration="361000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:roelveldhuizen/travis-test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;readme.md&#10;">
       <created>1475524304277</created>
@@ -271,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475526893855</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Untested bad function">
+      <created>1475662925693</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1475662925693</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -307,7 +313,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11198000" />
+    <option name="totallyTimeSpent" value="11365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3970" y="48" width="3710" height="2112" extended-state="6" />
@@ -773,8 +779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SomeFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="936">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding />
         </state>
       </provider>
