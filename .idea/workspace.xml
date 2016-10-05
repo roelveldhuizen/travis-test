@@ -50,8 +50,8 @@
       <file leaf-file-name="SomeFile.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SomeFile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="900">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -233,7 +233,7 @@
       <workItem from="1475524295812" duration="3479000" />
       <workItem from="1475609419844" duration="135000" />
       <workItem from="1475659228228" duration="49000" />
-      <workItem from="1475662725727" duration="951000" />
+      <workItem from="1475662725727" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:roelveldhuizen/travis-test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;readme.md&#10;">
       <created>1475524304277</created>
@@ -312,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475663537620</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Untested bad function">
+      <created>1475663680801</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1475663680801</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -348,7 +355,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11955000" />
+    <option name="totallyTimeSpent" value="12311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3970" y="48" width="3710" height="2112" extended-state="6" />
@@ -818,8 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SomeFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="900">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding />
         </state>
       </provider>

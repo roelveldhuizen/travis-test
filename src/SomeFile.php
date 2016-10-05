@@ -23,7 +23,7 @@ function use_global() {
 
 function unused_variable() {
     $i = 100;
-
+    //df
     return 0;
 }
 
