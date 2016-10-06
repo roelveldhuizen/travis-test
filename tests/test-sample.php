@@ -39,4 +39,7 @@ class SampleTest extends WP_UnitTestCase {
 
     }
 
+    function test_env(){
+        $this->assertEquals('expected',getenv('IN_TEST'));
+    }
 }
