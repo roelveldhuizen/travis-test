@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/.codeclimate.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="684">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -280,7 +280,7 @@
       <workItem from="1477049300785" duration="34000" />
       <workItem from="1477311411918" duration="13000" />
       <workItem from="1477311730354" duration="46000" />
-      <workItem from="1477429141382" duration="140000" />
+      <workItem from="1477429141382" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:roelveldhuizen/travis-test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;readme.md&#10;">
       <created>1475524304277</created>
@@ -387,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475758600723</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="code climate">
+      <created>1477429289260</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1477429289260</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -423,7 +430,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18058000" />
+    <option name="totallyTimeSpent" value="18167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="48" width="3710" height="2112" extended-state="6" />
@@ -468,7 +475,8 @@
     <MESSAGE value="Changed clover naming" />
     <MESSAGE value="badges" />
     <MESSAGE value="Untested bad function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Untested bad function" />
+    <MESSAGE value="code climate" />
+    <option name="LAST_COMMIT_MESSAGE" value="code climate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -875,7 +883,7 @@
     <entry file="file://$PROJECT_DIR$/.codeclimate.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding />
         </state>
       </provider>

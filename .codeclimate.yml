@@ -17,7 +17,7 @@ engines:
     enabled: true
     config:
       file_extensions: "php,inc,lib"
-      standard: "PSR1,PSR2"
+      standard: "WordPress"
 ratings:
   paths:
   - "**.css"
