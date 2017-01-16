@@ -121,6 +121,11 @@ install_db() {
 	mysqladmin create $DB_NAME --user="$DB_USER" --password="$DB_PASS"$EXTRA
 }
 
+install_wp_plugins(){
+	wp plugin install inesta-send-mail-copy --activate --path=$WP_CORE_DIR 
+}
+
 install_wp
 install_test_suite
 install_db
+install_wp_plugins
