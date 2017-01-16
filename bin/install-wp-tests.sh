@@ -126,6 +126,7 @@ install_wp_plugins(){
     curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 	chmod +x wp-cli.phar
 	#mv wp-cli.phar /usr/local/bin/wp
+	php wp-cli.phar core config --dbname=$DB_NAME --dbpass=$DB_PASS --dbhost=${DB_HOST} --dbuser=$DB_USER --path=$WP_CORE_DIR
 	php wp-cli.phar plugin install inesta-send-mail-copy --activate --path=$WP_CORE_DIR 
 }
 
