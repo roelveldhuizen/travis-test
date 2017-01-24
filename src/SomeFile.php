@@ -23,7 +23,7 @@ function use_global() {
 
 function unused_variable() {
     $i = 100;
-
+    //df
     return 0;
 }
 
@@ -32,7 +32,7 @@ function some_untested_function() {
     for ( $i = 0; $i < 100; $i ++ ) {
         $i ++;
     }
-
+    return null;
 }
 
 

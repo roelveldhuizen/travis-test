@@ -7,3 +7,4 @@ node_modules/
 /phpunit.xml
 /build/logs/clover.xml
 /build/logs/coverage.xml
+/.idea/workspace.xml
